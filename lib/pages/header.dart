@@ -1,5 +1,4 @@
 import 'package:portfolio/home.dart';
-import 'package:portfolio/models/header_items.dart';
 import 'package:portfolio/utilities/constants.dart';
 import 'package:portfolio/utilities/globals.dart';
 import 'package:portfolio/utilities/screen_helper.dart';

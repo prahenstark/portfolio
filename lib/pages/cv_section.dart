@@ -83,15 +83,22 @@ class CvSection extends StatelessWidget {
                   //onTap: () => downloadFile("https://github.com/prahenstark/portfolio/raw/master/assets/Resume.pdf"),
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
-                  child: Text(
-                    "DOWNLOAD RESUME",
-                    style: GoogleFonts.oswald(
-                      color: kPrimaryColor,
-                      //color: Color.fromRGBO(19, 20, 44, 1),
-                      fontWeight: FontWeight.w900,
-                      fontSize: 16.0,
-                    ),
+                  child: Container(
+                    //   decoration: BoxDecoration(
+                    //     color: Colors.grey.shade100.withOpacity(0.055),
+                    //     borderRadius: BorderRadius.circular(8.0),
+                    //   ),
+                    // padding: EdgeInsets.symmetric(horizontal: 24.0, vertical: 10.0),
+                    child: Text(
+                      "DOWNLOAD RESUME",
+                      style: GoogleFonts.oswald(
+                        color: kPrimaryColor,
+                        //color: Color.fromRGBO(19, 20, 44, 1),
+                        fontWeight: FontWeight.w900,
+                        fontSize: 16.0,
+                      ),
                 ),
+                  ),
               ),
               ),
             ],

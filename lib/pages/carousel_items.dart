@@ -102,28 +102,28 @@ List<CarouselItemModel> carouselItems = List.generate(5,
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                          Text(
-                            "This website is under development! Some buttons ",
-                            style: TextStyle(
-                              color: kCaptionColor,
-                              //color: Colors.black87,
-                              fontSize: 15.0,
-                              height: 1.0,
-                            ),
-                          ),
-                          SizedBox(height: 2),
-                      Text(
-                        "may not work.",
-                        style: TextStyle(
-                          color: kCaptionColor,
-                          //color: Colors.black87,
-                          fontSize: 15.0,
-                          height: 1.0,
-                        ),
-                      ),
-                          SizedBox(
-                            height: 15.0,
-                          ),
+                      //     Text(
+                      //       "This website is under development! Some buttons ",
+                      //       style: TextStyle(
+                      //         color: kCaptionColor,
+                      //         //color: Colors.black87,
+                      //         fontSize: 15.0,
+                      //         height: 1.0,
+                      //       ),
+                      //     ),
+                      //     SizedBox(height: 2),
+                      // Text(
+                      //   "may not work.",
+                      //   style: TextStyle(
+                      //     color: kCaptionColor,
+                      //     //color: Colors.black87,
+                      //     fontSize: 15.0,
+                      //     height: 1.0,
+                      //   ),
+                      // ),
+                      //     SizedBox(
+                      //       height: 15.0,
+                      //     ),
                           Row(
                             children: [
                               Text(
