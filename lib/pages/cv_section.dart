@@ -9,6 +9,7 @@ import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:responsive_framework/responsive_grid.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 final List<DesignProcess> designProcesses = [
   DesignProcess(
@@ -71,7 +72,15 @@ class CvSection extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                  onTap: () => downloadFile("https://github.com/prahenstark/portfolio/raw/master/assets/Resume.pdf"),
+                onTap: () async{
+                  const url = "https://github.com/prahenstark/portfolio/raw/master/assets/Resume.pdf";
+                  if (await canLaunch(url)){
+                    await launch(url);
+                  }else{
+                    throw 'Could not launch $url';
+                  }
+                },
+                  //onTap: () => downloadFile("https://github.com/prahenstark/portfolio/raw/master/assets/Resume.pdf"),
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: Text(
