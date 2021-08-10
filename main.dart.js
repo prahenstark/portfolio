@@ -52733,7 +52733,7 @@ return M.aF(s,new L.jx(this.rw(b,b.N(t.w).f.a.a*0.95),q,r,s),s,s,s,s,s,s,1/0)},
 rw:function(a,b){var s=null,r=t.Y
 return T.rE(C.bt,s,s,s,T.hv(H.c([T.h4(H.c([L.bF("WORK HARD,\nDREAM BIG",s,s,B.fP(C.j,18,C.aX,1.8)),D.cS(s,T.cW(L.bF("DOWNLOAD RESUME",s,s,B.fP(C.bx,16,C.aX,s)),C.a_,s,s,!0),C.E,!1,s,s,s,s,s,s,s,s,s,s,new Y.La(),s,s,s,s,s)],r),C.ai,C.ig),T.b9(s,50,s),M.aF(s,new A.jb(new Y.Lb(a),s),s,s,s,s,s,s,s),T.b9(s,5,s)],r),C.ai,C.a7,C.aO),!1,s,!1,1,b,s,b,!0)}}
 Y.La.prototype={
-$0:function(){var s=W.a5v("/assets/Resume.pdf")
+$0:function(){var s=W.a5v("https://github.com/prahenstark/portfolio/blob/master/assets/Resume.pdf")
 s.download="Resume (Prahen Parija)"
 s.click()
 return null},
