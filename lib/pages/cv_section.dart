@@ -71,7 +71,7 @@ class CvSection extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                  onTap: () => downloadFile("/assets/Resume.pdf"),
+                  onTap: () => downloadFile("https://github.com/prahenstark/portfolio/blob/master/assets/Resume.pdf"),
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: Text(
